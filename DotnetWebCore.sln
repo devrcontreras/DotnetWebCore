@@ -1,10 +1,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWebCore.AppHost", "DotnetWebCore.AppHost\DotnetWebCore.AppHost.csproj", "{8D5B1F3B-B02C-45C4-9E3A-7A953C7B7BB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWebCore.ServiceDefaults", "DotnetWebCore.ServiceDefaults\DotnetWebCore.ServiceDefaults.csproj", "{33D8E833-186B-04C7-2474-688AB05434ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWebCore.Identity", "DotnetWebCore.Identity\DotnetWebCore.Identity.csproj", "{53454793-51C1-4E70-A477-B6D373A4F16A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{33D8E833-186B-04C7-2474-688AB05434ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D8E833-186B-04C7-2474-688AB05434ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D8E833-186B-04C7-2474-688AB05434ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53454793-51C1-4E70-A477-B6D373A4F16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53454793-51C1-4E70-A477-B6D373A4F16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53454793-51C1-4E70-A477-B6D373A4F16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53454793-51C1-4E70-A477-B6D373A4F16A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
