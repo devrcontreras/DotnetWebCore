@@ -35,7 +35,7 @@ namespace DotnetWebCore.Identity.Helpers
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
                 options.LoginPath = "/Identity/Account/Login";
-                options.AccessDeniedPath = "Identity/Account/AccessDenied";
+                options.AccessDeniedPath = "/Identity/Account/AccessDenied";
                 options.SlidingExpiration = true;
             });
         }
