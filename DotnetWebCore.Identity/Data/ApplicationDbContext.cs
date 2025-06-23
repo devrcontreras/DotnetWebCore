@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DotnetWebCore.Identity.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : IdentityDbContext<Data.Entities.User>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
